@@ -54,7 +54,7 @@ class Main extends Component {
                 this.setState({
                     satInfo: response.data,
                     loadingSatellites: false,
-
+                    selected:[],
                 })
             })
             .catch(error => {
