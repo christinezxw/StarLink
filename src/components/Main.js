@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import SatSetting from './SatSetting';
 import SatelliteList from './SatelliteList';
+import WorldMap from './WorldMap';
 import { NEARBY_SATELLITE, STARLINK_CATEGORY, SAT_API_KEY } from '../constant';
 import Axios from 'axios';
 
@@ -80,7 +81,7 @@ class Main extends Component {
 
                 </div>
                 <div className="right-side">
-                    right
+                    <WorldMap />
                 </div>
             </div>
 
