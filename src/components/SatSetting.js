@@ -91,6 +91,7 @@ class SatSetting extends Component {
                                 <InputNumber
                                     min={0}
                                     max={90}
+                                    value={this.state.radius}
                                     defaultValue={0}
                                     style={{margin: "0 2px"}}
                                     onChange={this.onChangeRadious}
